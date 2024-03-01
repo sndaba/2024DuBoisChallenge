@@ -10,7 +10,7 @@ For 2024, the challenge will occur on X (formally Twitter), LinkedIn, Data Visua
 ## Who was W.E.B Du Bois
 
 <p align="center">
-  <img width="800" height="900" src="https://github.com/sndaba/2024DuBoisChallengeInRstats/blob/main/webdb.jpg">
+  <img width="800" height="1000" src="https://github.com/sndaba/2024DuBoisChallengeInRstats/blob/main/plates/webdb.jpg">
 </p>
 
 W.E.B. Du Bois is predominantly known as a scholar, activist, and author, but he was also a data visualization innovator. Born in 1868, Du Bois was the first Black American to receive a doctorate from Harvard, then studied and traveled in Europe before returning to the United States to focus on a career in the social sciences. Desperate to advance the rights and quality of life for Black people, Du Bois set out to collect the compelling evidence needed for cultural change. But he quickly realized more than reporting statistical data was needed to change a lifetime of racial oppression.
