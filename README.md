@@ -8,11 +8,12 @@ There is a folder for each challenge, which includes the images of the 1900 orig
 For 2024, the challenge will occur on X (formally Twitter), LinkedIn, Data Visualization Society Slack, Instagram, as well as Mastadon on vis.social.
 
 ## Who was W.E.B Du Bois
-![webdb](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/d580bed2-da09-416a-b271-b44095c2551a)
 
 <p align="center">
-  <img width="460" height="300" src="https://picsum.photos/460/300](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/d580bed2-da09-416a-b271-b44095c2551a">
+  <img width="800" height="900" src="https://github.com/sndaba/2024DuBoisChallengeInRstats/blob/main/webdb.jpg">
+   <a href="#">Link 1</a> |
 </p>
+
 
 W.E.B. Du Bois is predominantly known as a scholar, activist, and author, but he was also a data visualization innovator. Born in 1868, Du Bois was the first Black American to receive a doctorate from Harvard, then studied and traveled in Europe before returning to the United States to focus on a career in the social sciences. Desperate to advance the rights and quality of life for Black people, Du Bois set out to collect the compelling evidence needed for cultural change. But he quickly realized more than reporting statistical data was needed to change a lifetime of racial oppression.
 
@@ -35,7 +36,7 @@ In 2024, the theme for the challenge will be organized around the colors of the 
 + challenge03: Acres of Land Owned by Negroes in Georgia (plate 19), February 19
 
 ### Black
-+ challenge04: The Georgia Negro (plate 01), February 26
++ [challenge04](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge04): The Georgia Negro (plate 01), February 26
 + challenge05: Race Amalgamation in Georgia (plate 13), March 4
 + challenge06: Amalgamation of the White and Black elements of the population in the United States (plate 54), March 11
 
