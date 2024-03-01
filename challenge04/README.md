@@ -2,11 +2,10 @@
   The Georgia Negro (plate 01), February 26
 </h1>
 
-https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/02014d02-222d-4eac-befc-ed39f1497a67
-
+Diagram shows routes of the African slave trade with state of Georgia starred.
 
 <p align="center">
-  <img width="800" height="900" src=![original-plate-01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/02014d02-222d-4eac-befc-ed39f1497a67)>
+  <img width="800" height="900" src= " " >
 </p>
 
-Diagram shows routes of the African slave trade with state of Georgia starred.
+
