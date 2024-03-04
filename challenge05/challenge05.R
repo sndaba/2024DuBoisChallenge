@@ -1,7 +1,11 @@
+install.packages("tidyverse")
+install.packages("ggplot2")  #plot creation
+install.packages("scales")
 library(tidyverse)
 library(ggplot2)
 library(scales)
 
+#data extraction
 challenge05 <- read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/data.csv")
 challenge05
 
@@ -20,7 +24,7 @@ plot <- ggplot(challenge05, aes(x = "", y = Percentage, fill = Category)) +
         plot.title = element_text(hjust = 0.5, size=18, face = "bold"),
         plot.subtitle = element_text(hjust = 0.5, size=10),
         plot.background = element_rect(fill = 'papayawhip'),)
- plot +  
+ plot +  #adding the plot text annotation
    annotate("text", x = 0.55, y = 90, label = "BLACK.", size = 5, hjust = 0, fontface = "bold") +
    annotate("text", x = 0.60, y = 87, label = "IE.FULL-BLOOD.\nNEGROES.", size = 2, hjust = 0) +
    annotate("text", x = 0.95, y = 80, label = "44%", size = 5, hjust = 0, colour = "white")+
