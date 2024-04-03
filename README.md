@@ -18,7 +18,7 @@ In 2024, the theme for the challenge will be organized around the colors of the 
 ### Green
 + [challenge07](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge07): Illiteracy of the American Negro compared with other nations (plate 47), March 18
 + challenge08: The Rise of Negroes from Slavery to Freedom in One Generation (plate 50), March 25
-+ challenge09: Proportion of Freemen and Slaves (plate 51), April 1
++ [challenge09](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge09): Proportion of Freemen and Slaves (plate 51), April 1
 
 ### Combination
 + challenge10: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37), April 8
