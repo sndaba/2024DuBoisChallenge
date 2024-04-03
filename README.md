@@ -3,6 +3,7 @@
 ## The Challenges
 
 In 2024, the theme for the challenge is organized around the colors of the Pan African flag: Challenges 1-3: red, Challenges 4-6: black, Challenges 7-9: green, Challenge 10: a combination.
+####  NOTE: My recreation is on the right side.
 
 ### Red
 + challenge01: Negro Population of Georgia by Counties, 1870, 1880 (plate 06), February 5
@@ -16,8 +17,14 @@ In 2024, the theme for the challenge is organized around the colors of the Pan A
 
 ### Green
 + [challenge07](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge07): Illiteracy of the American Negro compared with other nations (plate 47), March 18
-+ challenge08: The Rise of Negroes from Slavery to Freedom in One Generation (plate 50), March 25
+ ![challenge07_recreation](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/808f3b75-30fc-4025-b9ce-8a78f9d76551)
+
++ [challenge08](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge08): The Rise of Negroes from Slavery to Freedom in One Generation (plate 50), March 25
+  ![challenge08_recreation](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/86ba2127-bb77-4b03-9c7e-e7205f374a42)
+
 + [challenge09](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge09): Proportion of Freemen and Slaves (plate 51), April 1
+![recreation_challenge09](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/86dcd9cf-bb8e-49d3-b02e-1eaac0f66770)
+
 
 ### Combination
 + challenge10: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37), April 8
