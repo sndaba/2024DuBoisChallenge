@@ -27,4 +27,6 @@ In 2024, the theme for the challenge is organized around the colors of the Pan A
 
 
 ### Combination
-+ challenge10: A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37), April 8
++ [challenge10:](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge10) A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States (plate 37), April 8
+  ![challenge10_recreation](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/8752a3c1-decb-4b42-ac4e-88f1bd6c5f2c)
+
