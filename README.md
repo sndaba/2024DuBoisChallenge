@@ -6,7 +6,9 @@ In 2024, the theme for the challenge is organized around the colors of the Pan A
 ####  NOTE: My recreation is on the right side.
 
 ### Red
-+ challenge01: Negro Population of Georgia by Counties, 1870, 1880 (plate 06), February 5
++ [challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge01): Negro Population of Georgia by Counties, 1870, 1880 (plate 06), February 5
+  ![challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/4e801874-3d4c-497d-86bc-809e31a3bbd5)
+
 + challenge02: Slave and Free Negroes (plate 12), February 12
 + challenge03: Acres of Land Owned by Negroes in Georgia (plate 19), February 19
 
