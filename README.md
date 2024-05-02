@@ -3,13 +3,15 @@
 ## The Challenges
 
 In 2024, the theme for the challenge is organized around the colors of the Pan African flag: Challenges 1-3: red, Challenges 4-6: black, Challenges 7-9: green, Challenge 10: a combination.
+The goal of the challenge is to celebrate the data viz legacy of W.E.B Du Bois—a Black American civil rights activist, sociologist and writer—by recreating the visualizations from the 1900 Paris Exposition using modern tools. 
+Visit [Github](https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md) for full details of each week’s challenge, including the 1900 original plates and the corresponding dataset.
 ####  NOTE: My recreation is on the right side.
 
 ### Red
 + [challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge01): Negro Population of Georgia by Counties, 1870, 1880 (plate 06), February 5
-  ![challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/4e801874-3d4c-497d-86bc-809e31a3bbd5)
-
-+ challenge02: Slave and Free Negroes (plate 12), February 12
+  ![recreation_challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/714d040e-2b05-4ce2-81d2-63b9c0e5bf2e)
++ [challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge02): Slave and Free Negroes (plate 12), February 12
+  ![recreation_challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/091abd57-3f6f-4deb-b454-0090d109fc0c)
 + challenge03: Acres of Land Owned by Negroes in Georgia (plate 19), February 19
 
 ### Black
