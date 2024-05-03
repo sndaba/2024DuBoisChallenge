@@ -16,7 +16,8 @@ Visit [Github](https://github.com/ajstarks/dubois-data-portraits/blob/master/cha
 
 ### Black
 + [challenge04](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge04): The Georgia Negro (plate 01), February 26
-+ challenge05: Race Amalgamation in Georgia (plate 13), March 4
++ [challenge05](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge05): Race Amalgamation in Georgia (plate 13), March 4
+  ![recreation_challenge05](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/40b93d30-02d1-45dc-b281-19adad265711)
 + challenge06: Amalgamation of the White and Black elements of the population in the United States (plate 54), March 11
 
 ### Green
