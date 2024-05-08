@@ -1,4 +1,4 @@
-# 2024 Du Bois Challenge
+# 2024 Du Bois Visualisation Challenge
 ![duboisChallenge2024](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/4b18b046-b06f-4bb6-b071-3b27dab2293f)
 ## The Challenges
 
@@ -12,13 +12,10 @@ Visit [Github](https://github.com/ajstarks/dubois-data-portraits/blob/master/cha
   ![recreation_challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/714d040e-2b05-4ce2-81d2-63b9c0e5bf2e)
 + [challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge02): Slave and Free Negroes (plate 12), February 12
   ![recreation_challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/091abd57-3f6f-4deb-b454-0090d109fc0c)
-+ challenge03: Acres of Land Owned by Negroes in Georgia (plate 19), February 19
 
 ### Black
-+ [challenge04](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge04): The Georgia Negro (plate 01), February 26
 + [challenge05](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge05): Race Amalgamation in Georgia (plate 13), March 4
   ![recreation_challenge05](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/40b93d30-02d1-45dc-b281-19adad265711)
-+ challenge06: Amalgamation of the White and Black elements of the population in the United States (plate 54), March 11
 
 ### Green
 + [challenge07](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge07): Illiteracy of the American Negro compared with other nations (plate 47), March 18
