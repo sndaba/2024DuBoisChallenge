@@ -6,7 +6,7 @@ library(ggplot2)
 library(scales)
 
 #data extraction
-challenge05 <- read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge05/data.csv")
+challenge05 <- read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge05/challenge05data.csv")
 challenge05
 
 
