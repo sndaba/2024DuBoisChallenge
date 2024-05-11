@@ -8,7 +8,7 @@ library(cowplot)
 library(ggforce)
 library(maps)
 
-challenge10 <- readr::read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv")
+challenge10 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge10/challenge10data.csv")
 
 
                                          #title annotation
