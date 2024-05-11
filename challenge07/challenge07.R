@@ -5,7 +5,7 @@ library(tidyverse)
 library(ggplot2)
 
 #extract and read data
-challenge07 <- read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge07/data.csv")
+challenge07 <- read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge07/challenge07data.csv")
 
 challenge07 <- rbind(c("Romaine",72.9363), challenge07)
 
