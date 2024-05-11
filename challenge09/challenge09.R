@@ -7,7 +7,7 @@ library(ggplot2)
 library(tidyverse)
 
 #read and extract the data
-challenge09 <- readr::read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge09/data.csv")
+challenge09 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge09/challenge09data.csv")
 
 #take a peek at the data
 #view(challenge09)
