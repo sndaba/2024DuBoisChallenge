@@ -20,10 +20,10 @@ library(cowplot)
 library(ggforce)
 
                               #getting the 1870 data
-data1870 = read.csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/data1870.csv")
+data1870 = read.csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge01/data1870.csv")
 
                               #getting the 1880 data
-data1880 = read.csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/data1880.csv")
+data1880 = read.csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge01/data1880.csv")
 
                                #data wrangling 1870 data
 names(data1870) <- tolower(names(data1870))
