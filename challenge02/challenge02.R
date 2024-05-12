@@ -16,7 +16,7 @@ library(ggplot2)
 library(ggthemes)
 
 
-challenge02 <- readr::read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge02/data.csv")
+challenge02 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge02/challenge02data.csv")
 
 #plot
 ggplot(data = challenge02, aes(x = Year, y = Free)) +
