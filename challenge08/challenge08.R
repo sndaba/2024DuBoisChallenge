@@ -1,15 +1,19 @@
 #install packages
-install.packages("tidyverse")
+install.packages("tidyr")
+install.packages("readr")
 install.packages("ggplot")
 install.packages("cowplot")
+install.ptachwork("patchwork")
 
 #load and extract the libraries to use
-library(tidyverse)
+library(tidyr)
+library(readr)
 library(ggplot2)
 library(cowplot)
+library(patchwork)
 
-#read data using readr package fron the tidyverse package
-challenge08 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge08/challenge08data.csv")
+#read data using readr package 
+challenge08 <- readr::read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge08/data.csv")
 
 #first data frame
 df <- data.frame(x=c(1, 4),
@@ -60,22 +64,13 @@ c08_1860 <- ggplot(df_long, aes(x = Year, y = Value, fill = Category)) +
  #scale_x_continuous(limits = c(1830, 1890)) +
   annotate(geom = "text", x = 1860, y = 50, size = 2, color = "red", lineheight = .9,
            label = "89%\nSLAVES\nESCLAVES", fontface = "bold") +
-  scale_fill_manual(values = c("Slave" = "black", "Free" = "darkgreen")) +
-  theme_classic() +
+ # scale_fill_manual(values = c("Slave" = "black", "Free" = "darkgreen")) +
+  theme_void() +
   theme(legend.position = "none")+
   theme(aspect.ratio = 2.5)  # Adjusting the width of the bar
 c08_1860
 
  
-
-straightline <- data.frame(x=c(1, 2, 3, 4),
-                 y=c(1,2,3,4,5,6))
-ggplot(df, aes(x=x, y=y)) +
-  geom_line() 
-
-
-
-
 
 #second data frame
 df2 <- data.frame(
