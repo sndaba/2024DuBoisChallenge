@@ -1,23 +1,16 @@
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("maps")
-install.packages("ggtext")
-install.packages("ggforce")
-install.packages("ggfx")
 install.packages("patchwork")
 install.packages("cowplot")
-install.packages("ggforce")
-install.packages("ggthemes") # Install 
 
-library(ggthemes) # Load
+                          # Load libraries
+library(tidyverse)   
 library(ggplot2)
-library(dplyr)
+library(dplyr)       #sometimes tidyverse doesn't work
+library(ggforce)  #geom_circle()
 library(maps)
-library(ggtext)
-library(ggfx)
-library(patchwork)
 library(cowplot)
-library(ggforce)
 
                               #getting the 1870 data
 data1870 = read.csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge01/data1870.csv")
@@ -37,7 +30,6 @@ data1880$subregion<-tolower(data1880$subregion)
 
                              #using map() to get subregion
 world <- map_data("world")
-
 usa_states <- map_data("state")
 georgia <- subset(usa_states, region %in% c("georgia"))
 
@@ -93,7 +85,7 @@ df <- data.frame(x=c(1, 2, 2, 3, 3, 4, 8, 10),
                  y=c(2, 4, 5, 4, 7, 9, 10, 12)) 
 b <- ggplot(data = df, aes(x, y)) +
   theme_void() +
-  geom_circle(aes(x0=1, y0=8, r=0.2),
+  geom_circle(aes(x0=1, y0=8, r=0.2),                  #ggforce
               fill='midnightblue', inherit.aes=FALSE) +
   geom_circle(aes(x0=1, y0=6, r=0.2),
               fill='chocolate4',inherit.aes=FALSE) +
@@ -118,10 +110,10 @@ b <- ggplot(data = df, aes(x, y)) +
 b
 
 
-                                     #Bottom left Legend:
+                                #Bottom left Legend:
 dff <- data.frame(x=c(1, 2, 2, 3, 3, 4, 8, 10),
-                y=c(2, 4, 5, 4, 7, 9, 10, 12))
-c <- ggplot(data = dff, aes(x, y)) +
+                  y=c(2, 4, 5, 4, 7, 9, 10, 12))
+z <- ggplot(data = dff, aes(x, y)) +
   theme_void()+
   geom_circle(aes(x0=1, y0=11, r=0.5),
               fill='#FF0000', inherit.aes=FALSE) +
@@ -133,8 +125,8 @@ c <- ggplot(data = dff, aes(x, y)) +
               fill='darkgreen',inherit.aes=FALSE) +
   scale_x_continuous(expand = c(0, 0), 
                      #breaks = seq(0, 10, 1000), 
-                     limits = c(0, 10)) +
-  coord_fixed() +
+                   limits = c(0, 10)) +
+ coord_fixed() +
   annotate(geom = "text", 
            x = 6, y = 2, 
            size = 4, color = "black", lineheight = .6,
@@ -151,7 +143,7 @@ c <- ggplot(data = dff, aes(x, y)) +
            x = 6, y = 11, 
            size = 4, color = "black", lineheight = .6,
            label = "10,000 TO 15 000")
-c
+z
 
 
                                       #plotting 1880
@@ -177,8 +169,7 @@ title <- ggdraw() +
     fontface = 'bold',
     x = 0,
     hjust = 0  ) 
-
-e <- plot_grid(a,b,c,d, ncol = 2, align = 'tb',
+e <- plot_grid(a,b,z,d, ncol = 2, align = 'tb',
           # rel_heights = c(5,3),
           rel_widths = c(5,4))
 e
