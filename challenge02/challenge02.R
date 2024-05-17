@@ -1,36 +1,26 @@
 install.packages("tidyverse")
 install.packages("ggplot2")
-install.packages("ggtheme")
-install.packages("ggthemr")
-install.packages("showtext")
-install.packages("sysfonts")
-install.packages("showtextdb")
 
-
-library(sysfonts) 
-library(showtext)
-library(showtextdb)
 library(tidyverse)
-library(showtext)
 library(ggplot2)
-library(ggthemes)
 
+challenge02 <- read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge02/challenge02data.csv")
 
-challenge02 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge02/challenge02data.csv")
-
-#plot
+                                               #plot
 ggplot(data = challenge02, aes(x = Year, y = Free)) +
   geom_line() +
-  geom_ribbon(data = NULL, aes(ymin = Free, ymax = Inf), fill = "black", alpha = 0.5) +
-  geom_ribbon(data = NULL, aes(ymin = -Inf, ymax = Free), fill = "red", alpha = 0.5) +
+  geom_ribbon(data = NULL, aes(ymin = Free, ymax = Inf), fill = "black", alpha = 0.8) +
+  geom_ribbon(data = NULL, aes(ymin = -Inf, ymax = Free), fill = "red", alpha = 0.9) +
   theme_minimal() +
   labs(
     title = "SLAVES AND FREE NEGROES.",
     caption = "Source: Du Bois Plate 12 | Graphic: Simisani Ndaba") +
   theme(
-    plot.title = element_text(hjust = 0.5, family = "mono", size = 23, face = "bold"),
+    plot.title = element_text(hjust = 0.5, family = "mono", 
+                              size = 23, face = "bold"),
     plot.background = element_rect(fill = 'papayawhip'),
-    plot.caption = element_text(hjust = 0.5, family = "mono", size = 15, face = "bold"),
+    plot.caption = element_text(hjust = 0.5, family = "mono", 
+                                size = 15, face = "bold"),
     axis.title.x=element_blank(),
     axis.title.y = element_blank(),
     axis.text.x=element_blank(),
@@ -56,5 +46,5 @@ ggplot(data = challenge02, aes(x = Year, y = Free)) +
   coord_flip()
 
 
-
+                                #saving the plot
 ggsave("challenge02.png", width=8, height=15)
