@@ -13,7 +13,7 @@ library(cowplot)
 library(patchwork)
 
 #read data using readr package 
-challenge08 <- readr::read_csv("https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge08/data.csv")
+challenge08 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge08/challenge08data.csv")
 
 #first data frame
 df <- data.frame(x=c(1, 4),
