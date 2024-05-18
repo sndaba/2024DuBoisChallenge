@@ -9,9 +9,6 @@ library(tidyverse)
 #read and extract the data
 challenge09 <- readr::read_csv("https://raw.githubusercontent.com/sndaba/2024DuBoisChallengeInRstats/main/challenge09/challenge09data.csv")
 
-#take a peek at the data
-#view(challenge09)
-
 
 # Convert the dataset from wide to long format_
 #easier to work with data in long format for certain types of analyses and visualizations, 
@@ -23,10 +20,11 @@ data_long <- tidyr::pivot_longer(challenge09, -Year, names_to = "Status", values
 
 # Create the stacked area plot
 ggplot(data_long, aes(x = Year, y = Count, fill = Status)) +
-  geom_area(color = "black") +
-  scale_fill_manual(values = c("green", "black")) +
-  annotate(geom = "text", label="SLAVES\nESCLAVES", fontface="bold",size=8,colour="white",x=1825,y=50)+
-  annotate(geom = "text", label="FREE - LIBRE",fontface="bold",size=7,colour ="black",x=1825,y=95)+
+  geom_area(color = "black",width=-0.1) +
+  scale_fill_manual(values = c("darkgreen", "black")) +
+  annotate(geom = "text", label="SLAVES", fontface="bold",size=12,colour="white",x=1825,y=50)+
+  annotate(geom = "text", label="ESCLAVES", fontface="bold",size=12,colour="white",x=1825,y=46)+
+  annotate(geom = "text", label="FREE - LIBRE",fontface="bold",size=10,colour ="black",x=1825,y=95)+
   annotate(geom = "text", label="1790", fontface="bold",size=6,colour="black",x=1790,y=103)+
   annotate(geom = "text", label="8%", fontface="bold",size=5,colour="black",x=1790,y=93)+
   annotate(geom = "text", label="1800", fontface="bold",size=6,colour="black",x=1800,y=103)+
@@ -46,13 +44,13 @@ ggplot(data_long, aes(x = Year, y = Count, fill = Status)) +
   annotate(geom = "text", label="1870", fontface="bold",size=6,colour="black",x=1870,y=103)+
   annotate(geom = "text", label="100%", fontface="bold",size=5,colour="black",x=1870,y=90)+
   theme_void()+
-  labs(title = "PROPORTION OF FREEMEN AND SLAVES AMONG AMERICAN NEGROES .\n\nPROPORTION DES NÈGRES LIBRES ET DES ESCLAVES EN AMÉRIQUE.",
-       subtitle = "DONE BY ATLANTA UNIVERSITY.\n\n",
+  labs(title = "PROPORTION OF FREEMEN AND SLAVES AMONG AMERICAN NEGROES .\nPROPORTION DES NÈGRES LIBRES ET DES ESCLAVES EN AMÉRIQUE.\n",
+       subtitle = "DONE BY ATLANTA UNIVERSITY.\n",
        caption = "source: 1900 Paris Exposition Plate 51 | graphic: simindaba")+
-  theme(plot.title = element_text(hjust=0.5,size = 16,family="mono",colour = "black", face = "bold"),
+  theme(plot.title = element_text(hjust=0.5,size = 18,family="mono",colour = "black", face = "bold"),
         plot.caption = element_text(hjust=0.5,family="mono",face="bold",size = 14, colour = "black"),
-        plot.subtitle = element_text(hjust=0.5,family="mono",face="bold",size = 12, colour = "black"),
+        plot.subtitle = element_text(hjust=0.5,family="mono",face="bold",size = 18, colour = "black"),
         plot.background = element_rect(fill = 'papayawhip'),
         legend.position = "none")
 
-ggsave("challenge09.png",width = 10,height = 12)
+ggsave("challenge09.png",width = 3,height = 5)
