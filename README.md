@@ -11,7 +11,7 @@ Visit [Github](https://github.com/ajstarks/dubois-data-portraits/blob/master/cha
 + [challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge01): Negro Population of Georgia by Counties, 1870, 1880 (plate 06), February 5
   ![recreation_challenge01](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/714d040e-2b05-4ce2-81d2-63b9c0e5bf2e)
 + [challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge02): Slave and Free Negroes (plate 12), February 12
-  ![recreation_challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/091abd57-3f6f-4deb-b454-0090d109fc0c)
+![challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/19bb84e8-0c30-4ba5-8fa5-b4b45c74127b)
 
 ### Black
 + [challenge05](https://github.com/sndaba/2024DuBoisChallengeInRstats/tree/main/challenge05): Race Amalgamation in Georgia (plate 13), March 4
