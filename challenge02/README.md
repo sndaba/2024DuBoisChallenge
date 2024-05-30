@@ -1,2 +1,2 @@
 # Challenge 02
-![recreation_challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/bc8877c5-697c-47c9-b915-6ddd9e374c87)
+![challenge02](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/41cbd0f9-59ae-42d3-9338-d0aa1270fbcf)
