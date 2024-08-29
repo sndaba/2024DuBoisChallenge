@@ -1,4 +1,7 @@
 # 2024 Du Bois Visualisation Challenge
+
+[R-Ladies Urmia talk]( https://simi.quarto.pub/2024-du-bois-challenge)  |  🎥 [Meetup recording](https://www.youtube.com/watch?v=GpCN7_saSjM)
+
 ![duboisChallenge2024](https://github.com/sndaba/2024DuBoisChallengeInRstats/assets/53818579/4b18b046-b06f-4bb6-b071-3b27dab2293f)
 ## The Challenges
 
